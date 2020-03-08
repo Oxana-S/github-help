@@ -21,3 +21,4 @@
 
 * git remote add origin git@github.com:Oxana-S/js-practice.git
 * git push -u origin master
+
