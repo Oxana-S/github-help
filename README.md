@@ -1,6 +1,6 @@
 # github-help
 ### Команды Git в Терминале, 
-файлы: Язык разметки Markdown.txt
+файлы: Язык разметки Markdown.txt  
        Базовые команды для Bush Терминала.md 
  
 * git init 
