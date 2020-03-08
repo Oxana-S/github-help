@@ -1,6 +1,7 @@
 # github-help
 ### Команды Git в Терминале, 
-файлы: Язык разметки Markdown.
+файлы: Язык разметки Markdown.txt
+       Базовые команды для Bush Терминала.md 
  
 * git init 
 * git add README.md (get add .)
