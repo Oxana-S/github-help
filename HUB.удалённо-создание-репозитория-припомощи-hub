@@ -1,5 +1,8 @@
 1. Создание удалённого репозитория при помощи hub
-hub — консольное приложение, упрощающее введение команд git и позволяющее производить некоторые недоступные для git действия в удалённых репозиториях из терминала. Так, при помощи hub возможно создание нового GitHub репозитория без обращений к веб-интерфейсу, для этого используется команда
+hub — консольное приложение, упрощающее введение команд git и позволяющее производить 
+некоторые недоступные для git действия в удалённых репозиториях из терминала. Так, 
+при помощи hub возможно создание нового GitHub репозитория без обращений к веб-интерфейсу, 
+для этого используется команда
 
 hub create
 
@@ -12,8 +15,9 @@ hub create
 2. Демонстрация
 Создаём, используя Git Bash, репозиторий с именем KristinitaTest.github.io в Windows.
 
-SashaChernykh@DESKTOP-0G54NVG MINGW32 /e
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e  
 $ mkdir KristinitaTest.github.io
+
 # Имя папки станет и именем Вашего удалённого репозитория.
 SashaChernykh@DESKTOP-0G54NVG MINGW32 /e
 $ cd KristinitaTest.github.io
@@ -23,6 +27,7 @@ $ touch README.MD
 
 SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io
 $ start README.MD
+
 # Пишем «Repository for test GitHub features and demonstrations.» в файл README.MD.
 SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io
 $ hub init
@@ -30,17 +35,21 @@ Initialized empty Git repository in E:/KristinitaTest.github.io/.git/
 
 SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io (master)
 $ hub add . && git commit -m "Repository for Sasha tests"
+
 [master (root-commit) b56f811] Repository for Sasha tests
  1 file changed, 1 insertion(+)
  create mode 100644 README.MD
 
 SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io (master)
 $ hub create -d "Create test repository" -h "Kristinita.ru"
+
 Updating origin
 created repository: Kristinita/KristinitaTest.github.io
+
 # Протокол «http://» будет добавлен автоматически в имя сайта.
 SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io (master)
 $ hub push -u origin master
+
 Counting objects: 3, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
