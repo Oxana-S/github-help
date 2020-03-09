@@ -1,0 +1,56 @@
+1. Создание удалённого репозитория при помощи hub
+hub — консольное приложение, упрощающее введение команд git и позволяющее производить некоторые недоступные для git действия в удалённых репозиториях из терминала. Так, при помощи hub возможно создание нового GitHub репозитория без обращений к веб-интерфейсу, для этого используется команда
+
+hub create
+
+Необязательные параметры команды:
+
+-d — описание репозитория, на сайте GitHub располагается под именами пользователя и репозитория;
+-h — ссылка на сайт, соответствующий репозиторию, в веб-интерфейсе GitHub находится рядом с описанием;
+-p — сделать репозиторий приватным; параметр доступен только если у Вас платный GitHub аккаунт.
+
+2. Демонстрация
+Создаём, используя Git Bash, репозиторий с именем KristinitaTest.github.io в Windows.
+
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e
+$ mkdir KristinitaTest.github.io
+# Имя папки станет и именем Вашего удалённого репозитория.
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e
+$ cd KristinitaTest.github.io
+
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io
+$ touch README.MD
+
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io
+$ start README.MD
+# Пишем «Repository for test GitHub features and demonstrations.» в файл README.MD.
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io
+$ hub init
+Initialized empty Git repository in E:/KristinitaTest.github.io/.git/
+
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io (master)
+$ hub add . && git commit -m "Repository for Sasha tests"
+[master (root-commit) b56f811] Repository for Sasha tests
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.MD
+
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io (master)
+$ hub create -d "Create test repository" -h "Kristinita.ru"
+Updating origin
+created repository: Kristinita/KristinitaTest.github.io
+# Протокол «http://» будет добавлен автоматически в имя сайта.
+SashaChernykh@DESKTOP-0G54NVG MINGW32 /e/KristinitaTest.github.io (master)
+$ hub push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Kristinita/KristinitaTest.github.io.git
+ * [new branch]      master -> master
+ 
+ Новый репозиторий успешно создан.
+ 
+ 3. Примечания
+В ответе подразумевается, что Вы уже связаны с аккаунтом на GitHub, и Вам не придётся при каждом push вводить логин/пароль.
+Лично протестировано только на Windows 10, но так как hub — кроссплатформенная утилита, решение должно работать и в других операционных системах.
