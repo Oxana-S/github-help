@@ -1,5 +1,5 @@
 # Github - HELP
-> **Что такое Git, Github?** [Сссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).   
+> **Что такое Git, Github?** [Ссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).   
 Файлы в дипозитории:    
 *Язык разметки Markdown.txt*    
 *Базовые команды для Bush Терминала.md*   
@@ -186,10 +186,13 @@ __[2)Cоздание Репозитория на Github удаленно, на �
 <br>
 <br>
 Ссылки по Hub:<br>      
-[Ссылка на команды Hub](https://hub.github.com/hub.1.html)       
-[Ссылка на форум, ответ на вопрос: Как создать репозиторий на GitHub через командную строку?](https://ru.stackoverflow.com/questions/504578/%D0%9A%D0%B0%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-%D0%BD%D0%B0-github-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%83%D1%8E-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D1%83)             
-[Ссылка на ресурс - hub: USE GITHUB FROM THE COMMAND-LINE](https://hub.github.com/#developer)        
+[Ссылка на команды Hub](https://hub.github.com/hub.1.html).       
+
+[Ссылка на форум, ответ на вопрос: Как создать репозиторий на GitHub через командную строку](https://ru.stackoverflow.com/questions/504578/%D0%9A%D0%B0%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-%D0%BD%D0%B0-github-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%83%D1%8E-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D1%83).
+
+[Ссылка на ресурс - hub: USE GITHUB FROM THE COMMAND-LINE](https://hub.github.com/#developer).        
 <br>
-* Переводы слов:
+<br>
+* Переводы слов:<br>
    remote - удаленный<br>
    kommit - совершать
