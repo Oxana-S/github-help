@@ -1,4 +1,4 @@
-# Github - HELP
+# <a name="home"></a>  Github - HELP
 > **Что такое Git, Github?** [Ссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).   
 Файлы в дипозитории:    
 *Язык разметки Markdown.txt*    
@@ -193,6 +193,7 @@ __[Полезные ссылки по Hub](#com's_git_3)
 [Ссылка на ресурс - hub: USE GITHUB FROM THE COMMAND-LINE](https://hub.github.com/#developer).        
 <br>
 <br>
-* Переводы слов:<br>
+**Переводы слов**:<br>
    remote - удаленный<br>
    kommit - совершать
+<a name="home"></a>**НАВЕРХ**
