@@ -1,7 +1,7 @@
 # github-help
 > Что такое Git, Github?
    [Сссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).
-> Файлы:   
+  Файлы:   
 - Язык разметки Markdown.txt  
 - Базовые команды для Bush Терминала.md 
 
