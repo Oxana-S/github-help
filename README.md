@@ -103,24 +103,43 @@
 * *git push origin master* // Передаем изменения в мастер ветку на Github
 
 # Коротко-Команды Git в Терминале, 
-##   ВАРИАНТ-1:
+##   ВАРИАНТ-1: Если Репозиторий создан онлайн на сайте Github
    1. Сначала создаем новый репозиторий на сайте Github
    2. Затем уже на компьюторе в редакторе (например в VSCode) вызываем Terminal и начинаем вводить команды:
 ## Сreate a new repository on the command line
-* *git init*   //команда для создания папки .git в папке проекта (например с сайтом) на компьюторе
-* *git add .*  // команда для добавления Всех файлов в папку .git в папке проекта на компьюторе 
+* *git init*   // команда для создания папки .git в папке проекта (например с сайтом) на компьюторе
+* *git add .*  // добавление Всех файлов в папку .git в папке проекта на компьюторе 
   или 
-*  *git add README.md*   // команда для добавления, например файла README в папку .git в папке проекта на компьюторе 
-* *git commit -m "first commit"*   // команда для создания Kommit, добавления названия Kommit в папку .git в папке проекта на компьюторе
+*  *git add README.md*   // добавление, например файла README в папку .git в папке проекта на компьюторе 
+* *git commit -m "first commit"*   // Создаем **коммит**, добавления названия **коммит** в папку .git в папке проекта на компьюторе
 
-* *git remote add origin git@github.com:Oxana-S/js-practice.git*
-* *git push -u origin master*
+* *git remote add origin git@github.com:Oxana-S/js-practice.git*  // Подключаем папку git проекта на компьюторе к удаленному репозиторию на Github 
+* *git push -u origin master*  // Отправляем созданный **коммит** из паки git проекта на компьюторе в удаленный репозиторий на Github
 
-## Push an existing repository from the command line
+## Push an existing repository from the command line   
+Если (например в редакторе VSCode):  
+- Репозиторий уже создан,    
+- файлы добавленны в папку .git на компьюторе   
+- **коммит** создан и ему присвоено название   
+ТОГДА исрользуем только эти команды:
+* *git remote add origin git@github.com:Oxana-S/js-practice.git*  // Подключаем папку git проекта на компьюторе к удаленному репозиторию на Github 
+* *git push -u origin master* // Отправляем созданный **коммит** из паки git проекта на компьюторе в удаленный репозиторий на Github
 
-* *git remote add origin git@github.com:Oxana-S/js-practice.git*
-* *git push -u origin master*
-
+#   ВАРИАНТ-2: Cоздание Репозитория в Терминале при помощи Hub
+   Есть какой-то проект сайта в какойто папке на компьюторе.    
+   [Ссылка на команды Hub](https://hub.github.com/hub.1.html);   
+   [Ссылка на форум, ответ на вопрос: Как создать репозиторий на GitHub через командную строку?](https://ru.stackoverflow.com/questions/504578/%D0%9A%D0%B0%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-%D0%BD%D0%B0-github-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%83%D1%8E-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D1%83);   
+   [Ссылка на ресурс - hub: USE GITHUB FROM THE COMMAND-LINE ](https://hub.github.com/#developer);   
+   
+    
+   1. На компьюторе в редакторе (например в VSCode) открываем этот проект, вызываем Terminal и начинаем вводить команды:
+## Сreate a new repository on the command line
+* *hub init*   // команда для создания папки .git в папке проекта (например с сайтом) на компьюторе
+* *hub add .*  // добавление Всех файлов в папку .git в папке проекта на компьюторе 
+  или 
+* *hub add README.md*   // добавление одного файла, например файла README в папку .git в папке проекта на компьюторе 
+* *hub create -d "Описание" -h "сайт если есть"* //
+* *git commit -m "first commit"*   // Создаем **коммит**, добавления названия **коммит** в папку .git в папке проекта на компьюторе
 
 * Переводы слов:
    remote - удаленный
