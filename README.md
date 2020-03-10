@@ -1,5 +1,6 @@
 # <a name="home"></a>  Github - HELP
-> **Что такое Git, Github?** [Ссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).   
+> **Что такое Git, Github?** [Ссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).  
+
 Файлы в дипозитории:    
 *Язык разметки Markdown.txt*    
 *Базовые команды для Bush Терминала.md*   
