@@ -1,13 +1,11 @@
 # Github - HELP
-> **Что такое Git, Github?    
-[Сссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).  
-  
+> **Что такое Git, Github?** [Сссылка на интересную статью](https://htmlacademy.ru/blog/boost/tools/git-console).   
 Файлы в дипозитории:    
 *Язык разметки Markdown.txt*    
 *Базовые команды для Bush Терминала.md*   
 *HUB.удалённо-создание-репозитория-припомощи-hub*       
 
-СОДЕРЖАНИЕ   
+**СОДЕРЖАНИЕ**   
 [1. Установка Git на компьюторе](#instal_Git)<br>
 [2. Устанавливаем SSH-ключи](#ssh_key)<br>
 [3. Работа с репозиториями](#rep_work)<br>
