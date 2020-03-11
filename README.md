@@ -6,7 +6,7 @@
 > **Git Book. Документация на русском!!!** [Ссылка на сайт с документацией по Git](https://git-scm.com/book/ru/v2).   
 
 > **Git: вернуться к предыдущему коммиту** [Ссылка на статью. Git: вернуться к предыдущему коммиту](https://dev-gang.ru/article/git-vernutsja-k-predydusczemu-kommitu-1qctx8l7f6/)   
-
+---
 Файлы в дипозитории:    
 *Язык разметки Markdown.txt*    
 *Базовые команды для Bush Терминала.md*   
