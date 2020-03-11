@@ -1,6 +1,7 @@
 # <a name="home"></a>  Github - HELP
-> **Что такое Git, Github?** [Ссылка на статью. Работа с Git через консоль](https://htmlacademy.ru/blog/boost/tools/git-console).  
-> **Git и Github. Простые рецепты** [Ссылка на статью. Подробно описан процес и команды работы с Git b Github](https://habr.com/ru/post/273897/). 
+> **Что такое Git, Github?** [Ссылка на статью. Работа с Git через консоль](https://htmlacademy.ru/blog/boost/tools/git-console). 
+
+> **Git и Github. Простые рецепты. КОМАНДЫ!!!** [Ссылка на статью. Подробно описан процес и Команды работы с Git b Github](https://habr.com/ru/post/273897/). 
 
 
 Файлы в дипозитории:    
