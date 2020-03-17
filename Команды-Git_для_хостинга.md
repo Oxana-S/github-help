@@ -17,17 +17,17 @@ __Порядок действий:__
 
 #### Подключение по sftp, используем полагин "SFTP"    
 * файл конфигурации для подключения к хостингу Hostinger.ru:
-* *sftp {
-    "name": "ledforce.best",
-    "host": "45.13.252.103",
-    "protocol": "sftp",
-    "port": 65002,
-    "username": "u238281279",
-    "password": "Ledforce.6510.tk",
-    "remotePath": "/home/u238281279/domains/ledforce.best/public_html",
-    "uploadOnSave": true,
-    "downloadOnOpen": true,
-    "COMMENT": "доступ по ssh: ssh -p 65002 u238281279@45.13.252.103"
+* *sftp {   
+    "name": "ledforce.best",   
+    "host": "45.13.252.103",   
+    "protocol": "sftp",   
+    "port": 65002,   
+    "username": "u238281279",   
+    "password": "Ledforce.6510.tk",    
+    "remotePath": "/home/u238281279/domains/ledforce.best/public_html",     
+    "uploadOnSave": true,    
+    "downloadOnOpen": true,   
+    "COMMENT": "доступ по ssh: ssh -p 65002 u238281279@45.13.252.103"    
 }*      
 // В COMMENT это просто добавил коментарий, где указана команда доступа в командной строке терминала   
 
